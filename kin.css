@@ -1,0 +1,10 @@
+.table-header{
+    background-color: tomato;
+}
+.song{
+    margin: 5px;
+    column-span: 2;
+}
+.chart-table{
+    display: inline-block;
+}

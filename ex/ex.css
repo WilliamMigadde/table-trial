@@ -1,0 +1,115 @@
+.rob{
+    width: 250px;
+    height: 60px;
+    background-color: darkgreen;
+    border: 1px solid black;
+    position: relative;
+    
+}
+.fish{
+    width: 150px;
+    height: 20px;
+    background-color: rgb(72, 0, 100);
+    border: 1px solid black;
+    position: absolute;
+    top: 29%;
+    right: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.image__wrapper{
+    background-color: gray;
+    border: 1px solid gray;
+    width: 340px;
+    padding: 20px;
+    text-align: center;
+    background: url('./bou.PNG');
+    background-size:cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+
+}
+.content_wrapper{
+    background-color: rgba(0, 0, 0, .5); 
+    color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+
+/* =======TEAM SECTION======= */
+
+.our_team_section_wrapper{
+    width: 100%;
+    background-color: #eaeaea;
+    padding: 40px 0;
+    margin: 20px auto;
+}
+
+.team_cards_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 20px;
+    width: 25%;
+    margin: 30px 10px;
+    text-align: center;
+    position: relative;
+    box-sizing: border-box;
+}
+.user_image{
+    /* background-color: red; */
+    background: url('./ws.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 5px solid #eaeaea;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -40px;
+    right: 50%;
+    transform: translate(50%);
+    
+    
+}
+.user_content{
+    margin-top: 70px;
+
+}
+.user_content h2, h5{
+    margin: 0;
+}
+
+.user_content h2{
+    margin-bottom: 4px;
+}
+.user_content h5{
+    margin-bottom: 8px;
+    color: #aaa;
+    font-style: italic;
+    font-weight: 400;
+}
+.user_socials{
+    display: flex;
+    justify-content: center;
+}
+
+.icon{
+    width: 8px;
+    height:8px;
+    background-color: orangered;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}

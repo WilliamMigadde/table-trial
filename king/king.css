@@ -1,0 +1,60 @@
+html{
+    font-size: 10px;
+}
+p{
+    /* border: 1px solid black; */
+    border-radius: 7px;
+    /* width: 100px; */
+    /* background-color: crimson; */
+    /* text-align: center; */
+    color: #000;
+    margin: 2rem 1.5rem;
+    /* display: flex; */
+    padding: 10rem;
+    flex-basis: 25%;
+    font-size: 1.6rem;
+    box-shadow: 2px 1px 15px rgb(233, 79, 230);
+}
+.world{
+       /* border: 1px solid black; */
+       /* width: 100px; */
+       /* background-color: crimson; */
+       text-align: center;
+       color: white;
+       /* margin: 20px 10px; */
+       /* display: flex; */
+       /* padding: 10px; */
+       /* display: grid; */
+       /* grid-template-columns: repeat(3, 1fr); */
+       /* grid-gap: 1em; */
+}
+.flex-one{
+    display: flex;
+    /* justify-content: space-between; */
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.holder{
+    margin: 10px;
+    padding: 15px;
+    display:
+}
+input{
+    /* background-color: blue; */
+    margin-right: 10px;
+    /* color: white; */
+    padding: 10px;
+}
+.liam{
+    display: flex;
+    padding-left: 10px;
+}
+.am{
+    padding: 20px;
+    margin-right: 10px;
+    border: 1px dotted black;
+    text-align: center;
+}
